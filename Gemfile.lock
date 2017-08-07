@@ -2,6 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     mustermann (1.0.0)
+    puma (3.9.1)
+    puma-heroku (1.0.0)
+      puma (~> 3.0)
     rack (2.0.3)
     rack-protection (2.0.0)
       rack
@@ -20,8 +23,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  puma
+  puma-heroku
   sinatra
   slim
+
+RUBY VERSION
+   ruby 2.3.3p222
 
 BUNDLED WITH
    1.15.3
