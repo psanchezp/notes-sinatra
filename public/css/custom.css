@@ -25,3 +25,13 @@ h5 {
 .text-muted {
   color: #999999;
 }
+
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+  padding: 1em 2em;
+  min-height: 100vh;
+}
