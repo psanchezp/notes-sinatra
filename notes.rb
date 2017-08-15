@@ -7,8 +7,12 @@ require 'active_record'
 # ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
 # Server
-configure { set :server, :puma }
+# configure { set :server, :puma }
 
 get '/' do
   slim :dashboard
+end
+
+get '/apis' do
+  slim :apis
 end

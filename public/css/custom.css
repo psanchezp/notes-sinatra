@@ -1,0 +1,27 @@
+li {
+  margin-left: 1rem;
+}
+
+ol{
+  padding: 1rem;
+}
+
+a {
+  color: rgba(0,0,0,0.87);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+.text-muted {
+  color: #999999;
+}
